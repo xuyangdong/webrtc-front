@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<style type="text/css">
+	body{
+		background-color: #6d695c;
+		background-image:
+			repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+			repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+			linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+			linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+		background-size: 70px 120px;
+	}
+	video{
+		outline: 3px #655 dashed;
+	}
+</style>
+<body>
+	<h1>摄像机窗口</h1>
+	<video id="localVideo" autoplay width="320" height="240"></video><br>
+	<script type="text/javascript" src="./client.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+*.webm
+*.png
+*.jpg
+video/*
+image/*
